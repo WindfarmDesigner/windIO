@@ -6,6 +6,8 @@ definitions:
     required:
       - x
       - y
+    optional:
+      - Coordinate_Reference_System
     additionalProperties: false
     properties:
       x:
@@ -18,6 +20,9 @@ definitions:
         description: South-North coordinate
         type: number
         units: m
+      Coordinate_Reference_System:
+        title: Coordinate Reference System
+        type: string
   #~
   coordinates:
     title: Coordinates
@@ -26,6 +31,8 @@ definitions:
     required:
       - x
       - y
+    optional:
+      - Coordinate_Reference_System
     additionalProperties: false
     properties:
       x:
@@ -38,6 +45,9 @@ definitions:
         description: South-North coordinates
         type: array
         units: m
+      Coordinate_Reference_System:
+         title: Coordinate Reference System
+         type: string
   data_types:
     decimal:
       type: number

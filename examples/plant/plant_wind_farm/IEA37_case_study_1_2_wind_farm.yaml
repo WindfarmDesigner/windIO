@@ -12,6 +12,7 @@ layouts:
                 1236.3735, 1236.3735, 764.1208, 0., -764.1208, -1236.3735, -1236.3735,
                 -764.1208
             ]
+            Coordinate_Reference_System: 'ABC'
 turbines:
     name: IEA Wind Task 37 case study 3.35MW Onshore Reference Turbine
     performance:
