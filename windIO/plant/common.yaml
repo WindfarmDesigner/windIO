@@ -6,8 +6,6 @@ definitions:
     required:
       - x
       - y
-    optional:
-      - Coordinate_Reference_System
     additionalProperties: false
     properties:
       x:
@@ -31,8 +29,6 @@ definitions:
     required:
       - x
       - y
-    optional:
-      - Coordinate_Reference_System
     additionalProperties: false
     properties:
       x:
@@ -46,8 +42,8 @@ definitions:
         type: array
         units: m
       Coordinate_Reference_System:
-         title: Coordinate Reference System
-         type: string
+        title: Coordinate Reference System
+        type: string
   data_types:
     decimal:
       type: number
